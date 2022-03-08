@@ -6,6 +6,8 @@ import router from './router';
 
 import { worker } from './mocks/browser';
 
+import './index.css';
+
 worker.start();
 
 const app = createApp(App);
