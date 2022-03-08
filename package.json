@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "firebase": "^9.6.6",
+    "msw": "^0.39.0",
     "pinia": "^2.0.11",
     "vue": "^3.2.29",
     "vue-router": "^4.0.12"
@@ -37,5 +38,8 @@
     "vite": "^2.7.13",
     "vitest": "^0.2.5",
     "vue-tsc": "^0.31.1"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
